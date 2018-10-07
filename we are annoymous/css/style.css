@@ -1,0 +1,24 @@
+#cst-color a
+{
+	border: 5px double;
+	padding: 35px 0; 
+	animation: p-shadow 3s infinite;
+}
+
+.cst-shadow
+{
+    margin: 50px 0 !important;
+    animation: shadow 3s infinite;
+}
+@keyframes p-shadow
+{
+	0%{text-shadow: 2px 20px 1px green;}
+	50%{text-shadow: 2px 1px 70px green;}
+	100%{text-shadow: 2px 20px 1px green;}
+}
+@keyframes shadow
+{
+	0%{box-shadow: 0px 0px 5px 5px green;}
+	50%{box-shadow: 0px 0px 40px 5px green;}
+	100%{box-shadow: 0px 0px 5px 5px green;}
+}
